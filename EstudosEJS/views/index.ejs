@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Yahoo Fake</title>
+</head>
+<body>
+  <h1>Yahoo fake</h1>
+  <img src="/img/img.jpg">
+  <!-- Pegar valor-->
+  <h2><%= nome %></h2>
+
+  <!-- testar condicao-->
+  <% if (linguagem == 'js') {%>
+    <h3>Tem código JS aqui</h3>
+  <%} else {%>
+    <h3>Outra linguagem</h3>
+    <%}%>
+
+    <% produtos.forEach(function(produto){ %>
+      <hr>
+      <p><%=produto.celular%></p>
+      <p><%=produto.preco%></p>
+      <br>
+    <%})%>
+</body>
+</html>
