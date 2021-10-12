@@ -1,0 +1,16 @@
+{
+  "name": "biblioteca_knex",
+  "version": "1.0.0",
+  "description": "knex é um query builder, monta códigos SQL, aumenta exigencia manual, precisa criar o banco, precisa montar as queries completas.\r Raw: Código todo macarronico. \r ORM: Dificulta muito para queries avançadas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "knex": "^0.95.9",
+    "mysql2": "^2.2.5"
+  }
+}
