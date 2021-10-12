@@ -1,0 +1,1 @@
+Ao apagar um item da lista, todos os dispositivos que acessarem o site não terão mais acesso aquele item. Variáveis são afetada para todos os usuários

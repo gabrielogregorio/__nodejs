@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Lista de produtos</h1>
+
+  <div class="flex">
+    <% for(let x=0; x < listaItens.length; x++ ) {%>
+      <div class="card">
+        <div class="item">
+          <h2 class="titulo"><%= listaItens[x]['nome'] %></h2>
+          <p class="preço">R$: <%= listaItens[x]['preco'] %></p>  
+        </div><!-- item -->
+        <div class="acoes">
+          <a href="/delete/<%= x %>">X</a>
+        </div><!-- acoes -->
+      </div><!-- card -->
+    <% } %>
+  </div><!-- flex -->
+</body>
+</html>
